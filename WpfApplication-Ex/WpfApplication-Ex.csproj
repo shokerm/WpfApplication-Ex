@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>WpfApplication_Ex</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\3177440.png" />
+    <None Remove="Images\9187604.png" />
+    <None Remove="Images\calc.png" />
+    <None Remove="Images\csharp.png" />
+    <None Remove="Images\dotnet.png" />
+    <None Remove="Images\memorygame.png" />
+    <None Remove="Images\sanke.png" />
+    <None Remove="Images\snake.png" />
+    <None Remove="Images\tetris.png" />
+    <None Remove="Images\tictactoe.png" />
+    <None Remove="Images\todo.png" />
+    <None Remove="Images\wpf.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\3177440.png" />
+    <Resource Include="Images\calc.png" />
+    <Resource Include="Images\csharp.png" />
+    <Resource Include="Images\dotnet.png" />
+    <Resource Include="Images\memorygame.png" />
+    <Resource Include="Images\snake.png" />
+    <Resource Include="Images\tetris.png" />
+    <Resource Include="Images\tictactoe.png" />
+    <Resource Include="Images\todo.png" />
+    <Resource Include="Images\wpf.png" />
+  </ItemGroup>
+
+</Project>
