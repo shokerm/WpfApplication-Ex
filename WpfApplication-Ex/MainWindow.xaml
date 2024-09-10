@@ -49,7 +49,7 @@
                     <Image Cursor="Hand"  ToolTip="Calculator" Source="/Images/todo.png" Style="{StaticResource GamesIcons}"  Height="150"/>
                 </Border>
                 <Border CornerRadius="50" Background="{StaticResource IconsBackground}" BorderThickness="20" Height="220" Width="220" Margin="1 0" MouseEnter="Border_MouseEnter" MouseLeave="Border_MouseLeave">
-                    <Image Cursor="Hand"  ToolTip="Calculator" Source="/Images/calc.png" Style="{StaticResource GamesIcons}"  Height="150"/>
+                    <Image Cursor="Hand"  ToolTip="Calculator" Source="/Images/calc.png" Style="{StaticResource GamesIcons}"  Height="NaN" Margin="15,15,15,15"/>
                 </Border>
                 <Border CornerRadius="50" Background="#FF7C7373" BorderThickness="20" Height="220" Width="220" Margin="1 0" MouseEnter="Border_MouseEnter" MouseLeave="Border_MouseLeave">
                     <Image Cursor="Hand"  ToolTip="Snake" Source="/Images/snake.png" Style="{StaticResource GamesIcons}"  Height="150"/>
@@ -69,7 +69,7 @@
         <Viewbox Grid.Row="3" Grid.Column="1">
             <WrapPanel Width="575" Height="285">
                 <Border CornerRadius="50" Background="{StaticResource IconsBackground}" BorderThickness="10" Height="180">
-                <Image ToolTip=".NET" Source="/Images/dotnet.png" Style="{StaticResource FooterIcons}" Width="100" Height="100" />
+                    <Image ToolTip=".NET" Source="/Images/dotnet.png" Style="{StaticResource FooterIcons}" Width="100" Height="100" />
                 </Border>
                 <Border CornerRadius="50"  Background="{StaticResource IconsBackground}" BorderThickness="10" Height="180">
                     <Image ToolTip="C#" Source="/Images/csharp.png" Style="{StaticResource FooterIcons}" Width="100" Height="100"/>
